@@ -1,0 +1,264 @@
+<!Doctype html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://kit.fontawesome.com/8c74a9f309.js" crossorigin="anonymous"></script>
+<!--   <link rel="stylesheet" href="MyResumePageStyle.css">-->
+    <title>My Resume</title>
+    
+    <style>
+        *{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    border: 1px solid #aeaeae;
+    margin: 1em auto;
+    background: #fff;
+}
+.top-bar{
+    
+    flex: 100%;
+    display: flex !important;
+    height: 202px;
+    background-color: #10105d;
+
+}
+img{
+    padding-top: 8.5px;
+    padding-left: 8.5px;
+    box-shadow: 3px 3px 3px black ,3px 3px 3px black;
+    height: 180px;
+    width: 180px;
+    border: 1px solid white;
+}
+.personal-details{
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    
+}
+h2{
+    color: white;
+    margin-block-start: 30px !important;
+    margin-block-end: 0 !important;
+}
+h4{color: white;
+    margin-block-start: 10px !important;
+    margin-block-end: 5px !important;
+    font-weight: 500 !important;
+}
+#details{
+    
+    color: white;
+    padding: 5px;
+}
+
+
+.belowPage{
+    display: flex;
+/*    flex-wrap: wrap;*/
+
+padding: 10px;
+    
+}
+/*****Left-Side-Styling*****/
+
+.left-side{
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+
+    height: 100%;
+    padding: 10px;
+}
+
+#exp,#edu{
+    height: 26px;
+    width: 98.3%;
+    background-color: darkgrey;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+
+#company-name th{
+    text-align: left !important;
+    font-size: 20px;
+}
+#join-date{
+    color: lightgray;font-weight: 700;text-align: right!important; 
+    font-size: 12px;
+}
+#previous-posts{
+    text-align: left !important; font-size: 18px;letter-spacing: 0.5px; font-weight: 700;color: darkgray;
+}
+#company-name li{
+    text-align: justify;
+}
+
+#college-name th{
+    text-align: left !important;
+    font-size: 20px;
+}
+
+/******Right-Side-Styling******/
+
+.right-side{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+/*    width: 50%;*/
+    height: 100%;
+   background-color: lightgray;
+    padding: 10px;
+}
+
+ul>li{
+    margin: 10px;
+}
+        
+        
+        @media (min-width: 1200px){
+            .belowPage{
+                
+                flex-direction: row;
+                background-color: red;
+                
+            }
+            
+            
+            
+        }
+        
+        @media (max-width: 800px)
+        {
+
+            .belowPage{
+                background-color: aqua;
+                flex-direction: column;
+            }
+        }
+    </style>   
+</head>
+<body>
+    
+        
+<!--        ******  PROFILE  *******-->
+<div class="container">
+        <div class="top-bar">
+                <img src="AnjaliPassport.jpeg">
+            <div class="personal-details">
+                <h2>Anjali Vijay Sirsam</h2>
+                <h4>Sales Executive(Sales Manager)</h4>
+                <table id="details">
+                <tr>
+                    <th>Phone</th>
+                    <td>1234567896</td>
+                </tr>
+                    <tr>
+                    <th> Address</th>
+                    <td>Nsjbgv jvdfd buyxfx 12,3</td>
+                </tr>
+                    <tr>
+                    <th>Email</th>
+                    <td>dsvvvuyef@gmail.com</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        
+<!--        ********BELOW PAGE******-->
+
+    <div class="belowPage"> 
+        <div class="left-side">
+              <content >Seeking managerial position in Sales & Marketing/Business Development with a growth oriented organization in the software industry, preferably in London.</content> 
+             <div id="exp">Experience</div>
+            <table id="company-name">
+                <tr>
+                <th>Progressive Technologies Inc.</th>
+                <td id="join-date">July 2012 to Present</td>
+                </tr>
+                <tr><td id="previous-posts">Sales Executive</td></tr>
+               <tr><td><li >Increased territory sales from less than $4 million to $8.2 million within two years, exceeding quota by 12% in 2013 and 15% in 2014.</li></td></tr>
+                 <tr><td><li >Ranked as #1 sales manager (out of 12) in 2013 and 2014.</li></td></tr>
+                 <tr><td><li >Fostered a robust, sustainable network of buyers from London to Cardiff, leveraging strong listening, presentation and closing skills to optimize sales results despite previously dominant competitor advantage.</li></td></tr>
+                 <tr><td><li >Sold and marketed multimedia, computer-based training, graphics and 3-D design, photoimaging, sound editing, and web page development tools to key Fortune 500 and 1000 accounts.</li></td></tr>
+                
+                <tr><td><hr style="color: black;border:1px dotted; "></td></tr>
+                
+                
+                 <tr>
+                <th>Niche Software Ltd.</th>
+                <td id="join-date">January 2010 to June 2012</td>
+                </tr>
+                <tr><td id="previous-posts">Junior Sales Executive</td></tr>
+               <tr><td><li >Managed daily operations of the IT service department generating $12.5 million annually. Provided floor sales leadership and supervised eight associates. Rapidly promoted from initial junior sales executive position.</li></td></tr>
+                 <tr><td><li >Tracked sales using relevant software to provide accurate reports and monitored competitor activities closely to identify any business threats</li></td></tr>
+                 <tr><td><li >Gathered customer satisfaction surveys and regularly updated contact database</li></td></tr>
+                 <tr><td><li >Contributed to identifying upcoming product opportunities – supported product development to develop new products</li></td></tr>
+            </table>
+            
+            <div id="edu">Education</div>
+            <table id="college-name">
+            <tr>
+                <th>University of Arizona</th>
+                <td id="join-date">2009 to 2010</td></tr>
+                <tr><td id="previous-posts">MBA, Master's in Business Administration</td></tr>
+                <tr><td><li > Graduated summa cum laude.</li></td></tr>
+                <tr><td><li > Won the "Next Gen Entrepreneur Award" for a sales and marketing plan development for a software start-up.</li></td></tr>
+                
+                <tr><td><hr style="color: black;border:1px dotted; "></td></tr>
+                
+                <tr>
+                <th> St Joseph University
+Bachelor of Arts in English</th>
+                <td id="join-date">2006 to 2009</td></tr>
+                <tr><td id="previous-posts">Bachelor of Arts in English</td></tr>
+                <tr><td><li > Awarded the President's Honour for Creative Column Writing.</li></td></tr>
+                
+            </table>
+            
+        </div>
+<!--          ********  Right-Side  ********** 
+-->
+        
+        <div class="right-side">
+         <div id="exp">SKILLS</div>
+            <ul>
+             <li>Microsoft Office Suite</li>
+             <li>Financial Forecasting</li>
+             <li>Sales team supervision</li>
+             <li>Presentations & Proposals</li>
+             <li>Relationship management</li>
+             <li>Effectively meet deadlines</li>
+             <li>Achieve targets and work under pressure</li>
+             <li>Accounting-related computer literacy</li>
+             <li>Excellent communication skills</li>
+             <li>Proactive and intuitive leader</li>
+            </ul>
+            
+            <div id="exp"> OTHER CREDENTIALS</div>
+            <h5 style="font-size: 15px;margin-block-end:0 !important;">Professional Development:</h5>
+            <ul style="">
+             <li>Dale Carnegie Sales Training</li>
+             <li>Leadership Through Quality</li>
+             <li>Account Management-Selling System</li>
+             <li>WIN Sales and Marketing Programs, New York</li>
+             <li>Certification Program in Sales Management (CPSM)</li>
+             
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
